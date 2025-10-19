@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahil Gimang - Digital Artist & Web Developer</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="preloader"><div class="spinner"></div></div>
+
+<header class="header">
+    <div class="container">
+        <h1>Fahil Gimang</h1>
+        <p>Full-Stack Developer | UX Enthusiast | Exploring Web Capabilities</p>
+        <nav class="nav-bar">
+            <a href="#projects">Proyek</a>
+            <a href="#skills">Keahlian</a>
+            <a href="#about">Tentang</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+
+    <section id="projects">
+        <h2 class="section-title">Inovasi Teknologi</h2>
+        <div class="card api-demo-card">
+            <h4>Status Otomatisasi (Demo Cloudinary)</h4>
+            <p>Saya hanya murid biasa yg masih belajar coding</p>
+            
+            <video id="videoElement" autoplay></video>
+            <canvas id="canvasElement"></canvas>
+            
+            <div id="log">
+                <h3>Log Aktivitas Demo:</h3>
+                <p>Status: Menunggu eksekusi otomatis...</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <hr>
+    
+    <section id="project-details">
+        <h2 class="section-title">Portofolio Pilihan</h2>
+        <div class="card project-item"><h4>1. Aplikasi Analisis Data Visual</h4><p>Platform dashboard interaktif menggunakan React dan D3.js.</p></div>
+        <div class="card project-item"><h4>2. Sistem E-Commerce Berbasis Mikroservis</h4><p>Membangun arsitektur mikroservis untuk skalabilitas.</p></div>
+    </section>
+    
+    <hr>
+
+    <section id="skills">
+        <h2 class="section-title">Keahlian Teknis</h2>
+        <div class="skills-grid">
+            <div class="skill-category"><h5>Frontend</h5><p>HTML5, CSS3, JavaScript</p></div>
+            <div class="skill-category"><h5>Backend</h5><p>Node.js, Python, PostgreSQL</p></div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="about" class="section-space">
+        <h2 class="section-title">Tentang Saya</h2>
+        <p>Saya adalah pengembang web dengan fokus pada keamanan, performa, dan pengalaman pengguna.</p>
+    </section>
+    
+    <section id="contact">
+        <h2 class="section-title">Hubungi Saya</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Nama Anda" required>
+            <input type="email" placeholder="Email Anda" required>
+            <textarea placeholder="Pesan Anda..." rows="4" required></textarea>
+            <button type="submit" class="permission-btn">Kirim Pesan</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p style="text-align: center; margin-top: 50px; font-size: 0.85em; color: #6c757d;">&copy; 2025 Hilah Gimang. Hak Cipta Dilindungi.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
